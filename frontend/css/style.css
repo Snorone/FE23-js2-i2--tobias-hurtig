@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+form input {
+  width: 15vw;
+  margin-right: 5px;
+}
+
+header {
+  height: 25%;
+  padding: 3vh;
+  background-color: lightgrey;
+}
+
+header h1 {
+  padding-bottom: 5vh;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bigsection {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  padding-top: 5vh;
+}
+.bigsection h1 {
+  text-align: center;
+  padding-top: 2vh;
+}
+#todo {
+  width: 30vw;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#in-progress {
+  width: 30vw;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#done {
+  width: 30vw;
+  height: 100%;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#button-div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50vw;
+  padding: 2rem;
+}
+
+.uxbtn {
+  background-color: orange;
+  width: 4rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 600;
+  padding: 1vw;
+}
+.backendbtn {
+  background-color: lightblue;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 600;
+  padding: 1vw;
+}
+.frontendbtn {
+  background-color: lightgreen;
+  width: 6rem;
+  height: 3rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 600;
+  padding: 1vw;
+}
+.buttonclass {
+  padding: 0.2rem;
+}
+.divclass {
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.divclassux {
+  padding: 5px;
+  margin: 1vw;
+  background-color: orange;
+  border: 2px solid rgb(247, 179, 96);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.divclassbackend {
+  margin: 1vw;
+  padding: 5px;
+  background-color: lightblue;
+  border: 2px solid rgb(160, 209, 225);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.divclassfrontend {
+  margin: 1vw;
+  padding: 5px;
+  background-color: lightgreen;
+  border: 2px solid rgb(125, 246, 125);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.ass-name {
+  font-weight: bold;
+}
