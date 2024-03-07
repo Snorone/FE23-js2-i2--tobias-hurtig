@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": 1709835141266,
+      "assigned": "tobbeess",
+      "category": "dev frontend",
+      "status": "in progress",
+      "task": "teststs"
+    },
+    {
+      "id": 1709837042605,
+      "assigned": "tests",
+      "category": "ux",
+      "status": "in progress",
+      "task": "tes"
+    },
+    {
+      "assigned": "sotob",
+      "status": "done"
+    },
+    {
+      "id": 1709845523810,
+      "assigned": "",
+      "category": "ux",
+      "status": "to do",
+      "task": "hitta på nåt"
+    },
+    {
+      "id": 1709845540693,
+      "assigned": "",
+      "category": "dev frontend",
+      "status": "to do",
+      "task": "sgadfvdas"
+    },
+    {
+      "id": 1709845545885,
+      "assigned": "",
+      "category": "ux",
+      "status": "to do",
+      "task": "vsadczasvca"
+    },
+    {
+      "id": 1709845535015,
+      "assigned": "z z",
+      "category": "dev backend",
+      "status": "in progress",
+      "task": "plocka svamp"
+    },
+    {
+      "id": 1709837039395,
+      "assigned": "csvxz",
+      "category": "dev backend",
+      "status": "done",
+      "task": "tets"
+    },
+    {
+      "id": 1,
+      "assigned": "tobbe",
+      "category": "dev frontend",
+      "status": "done",
+      "task": "teststs"
+    }
+  ]
+}
