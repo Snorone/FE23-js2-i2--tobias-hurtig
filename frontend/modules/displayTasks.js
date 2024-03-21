@@ -78,7 +78,9 @@ function createForm(div, task) {
 
   elForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    patchTask(task, inputForm.value, "in progress").then((data) => {});
+    patchTask(task, inputForm.value, "in progress")
+    .then(getTasks)
+    .then(displayTasks);
   });
 }
 
