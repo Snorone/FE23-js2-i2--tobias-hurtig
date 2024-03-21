@@ -26,39 +26,60 @@
       "task": "hitta på nåt"
     },
     {
-      "id": 1709845540693,
-      "assigned": "",
-      "category": "dev frontend",
-      "status": "to do",
-      "task": "sgadfvdas"
-    },
-    {
       "id": 1709845545885,
-      "assigned": "",
+      "assigned": "asdfsfdg",
       "category": "ux",
-      "status": "to do",
+      "status": "in progress",
       "task": "vsadczasvca"
     },
     {
-      "id": 1709845535015,
-      "assigned": "z z",
-      "category": "dev backend",
-      "status": "in progress",
-      "task": "plocka svamp"
-    },
-    {
-      "id": 1709837039395,
-      "assigned": "csvxz",
-      "category": "dev backend",
-      "status": "done",
-      "task": "tets"
-    },
-    {
-      "id": 1,
+      "id": 1711018751260,
       "assigned": "tobbe",
       "category": "dev frontend",
+      "status": "in progress",
+      "task": "hfdgsf"
+    },
+    {
+      "id": 1711019624951,
+      "assigned": "",
+      "category": "ux",
+      "status": "to do",
+      "task": "dtjfk"
+    },
+    {
+      "id": 1711019629570,
+      "assigned": "",
+      "category": "ux",
+      "status": "to do",
+      "task": "dtfftygk"
+    },
+    {
+      "id": 1711019633522,
+      "assigned": "",
+      "category": "ux",
+      "status": "to do",
+      "task": ""
+    },
+    {
+      "id": 1711019635362,
+      "assigned": "gyigyigyi",
+      "category": "ux",
+      "status": "in progress",
+      "task": ""
+    },
+    {
+      "id": 1709845540693,
+      "assigned": "teat",
+      "category": "dev frontend",
       "status": "done",
-      "task": "teststs"
+      "task": "sgadfvdas"
+    },
+    {
+      "id": 1711019634518,
+      "assigned": "gyui",
+      "category": "ux",
+      "status": "done",
+      "task": ""
     }
   ]
 }
