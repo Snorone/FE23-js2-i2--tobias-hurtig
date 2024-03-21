@@ -54,13 +54,6 @@
       "task": "dtfftygk"
     },
     {
-      "id": 1711019633522,
-      "assigned": "",
-      "category": "ux",
-      "status": "to do",
-      "task": ""
-    },
-    {
       "id": 1711019635362,
       "assigned": "gyigyigyi",
       "category": "ux",
@@ -79,6 +72,13 @@
       "assigned": "gyui",
       "category": "ux",
       "status": "done",
+      "task": ""
+    },
+    {
+      "id": 1711019633522,
+      "assigned": "Tobbe",
+      "category": "ux",
+      "status": "in progress",
       "task": ""
     }
   ]
