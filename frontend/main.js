@@ -19,7 +19,6 @@ form.addEventListener("submit", (event) => {
   postWithForm(userInput, userSelect).then(() => {
     getTasks().then(displayTasks);
     formInput.value = "";
-    console.log(formInput);
   });
 });
 

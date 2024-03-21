@@ -1,4 +1,4 @@
-import { getTasks, deleteTask, patchTask } from "./fetchFunctions.js";
+import { getTasks, deleteTask, patchTask, patchDoneTask } from "./fetchFunctions.js";
 const todoContainer = document.querySelector("#tododiv");
 const inProgressContainer = document.querySelector("#in-progressdiv");
 const doneContainer = document.querySelector("#donediv");
@@ -99,7 +99,7 @@ function createDeleteBtn(div, id) {
   });
 }
 
-function createDoneBtn(div, task, assignedVal, assignedStatus) {
+function createDoneBtn(div, task, assigned, assignedStatus) {
   let doneBtn = document.createElement("button");
   doneBtn.innerText = "Done";
   doneBtn.className = "buttonclass";
@@ -107,7 +107,7 @@ function createDoneBtn(div, task, assignedVal, assignedStatus) {
 
   doneBtn.addEventListener("click", (event) => {
     event.preventDefault();
-    patchTask(task, assignedVal, assignedStatus).then(() => {
+    patchDoneTask(task, assigned, assignedStatus).then(() => {
       getTasks().then(displayTasks);
     });
   });

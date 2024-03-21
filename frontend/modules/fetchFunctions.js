@@ -1,4 +1,4 @@
-export { getTasks, postWithForm, deleteTask, patchTask };
+export { getTasks, postWithForm, deleteTask, patchTask, patchDoneTask };
 
 const baseUrl = "http://localhost:3000/api/";
 const header = {
@@ -61,8 +61,28 @@ async function patchTask(task, assigned, status) {
 
   const res = await fetch(url, options);
   const data = await res.json();
+}
 
-  console.log(data);
+
+async function patchDoneTask(task, assigned, status) {
+  const url = baseUrl + "task/done";
+
+  const content = {
+    id: task.id,
+    assigned: assigned,
+    category: task.category,
+    status: status,
+    task: task.task,
+  };
+
+  const options = {
+    method: "PATCH",
+    body: JSON.stringify(content),
+    headers: header,
+  };
+
+  const res = await fetch(url, options);
+  const data = await res.json();
 }
 
 async function deleteTask(id) {

@@ -2,7 +2,6 @@ import fs from "fs/promises";
 
 async function readDatabase() {
   const myDb = await fs.readFile("./db.json");
-  console.log(myDb);
   return JSON.parse(myDb);
 }
 
@@ -46,6 +45,7 @@ async function deleteTask(id) {
 async function patchTask(updatedTask) {
   const tasks = await getTasks();
   const result = tasks.filter((tmpTask) => tmpTask.id != updatedTask.id);
+
   result.push(updatedTask);
   addTasks(result);
   return result;
