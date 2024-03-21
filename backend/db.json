@@ -40,13 +40,6 @@
       "task": "hfdgsf"
     },
     {
-      "id": 1711019624951,
-      "assigned": "",
-      "category": "ux",
-      "status": "to do",
-      "task": "dtjfk"
-    },
-    {
       "id": 1711019629570,
       "assigned": "",
       "category": "ux",
@@ -68,18 +61,67 @@
       "task": "sgadfvdas"
     },
     {
-      "id": 1711019634518,
-      "assigned": "gyui",
-      "category": "ux",
-      "status": "done",
-      "task": ""
-    },
-    {
       "id": 1711019633522,
       "assigned": "Tobbe",
       "category": "ux",
       "status": "in progress",
       "task": ""
+    },
+    {
+      "id": 1711022860046,
+      "assigned": "Tobbe",
+      "category": "ux",
+      "status": "done",
+      "task": "hoppa"
+    },
+    {
+      "id": 1711023134796,
+      "assigned": "",
+      "category": "ux",
+      "status": "in progress",
+      "task": "dfdsgfh"
+    },
+    {
+      "id": 1711023160700,
+      "assigned": "",
+      "category": "dev backend",
+      "status": "to do",
+      "task": "aewsdhfd"
+    },
+    {
+      "id": 1711023186491,
+      "assigned": "",
+      "category": "dev backend",
+      "status": "to do",
+      "task": "asgdfhgjh"
+    },
+    {
+      "id": 1711023221413,
+      "assigned": "",
+      "category": "dev backend",
+      "status": "to do",
+      "task": ""
+    },
+    {
+      "id": 1711023274252,
+      "assigned": "",
+      "category": "dev backend",
+      "status": "to do",
+      "task": "Tomtegubbe"
+    },
+    {
+      "id": 1711019624951,
+      "assigned": "",
+      "category": "ux",
+      "status": "in progress",
+      "task": "dtjfk"
+    },
+    {
+      "id": 1711023196748,
+      "assigned": "fsd",
+      "category": "dev backend",
+      "status": "in progress",
+      "task": "dsfdhgfdjg"
     }
   ]
 }

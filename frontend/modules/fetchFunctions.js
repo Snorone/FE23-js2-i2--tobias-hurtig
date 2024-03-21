@@ -39,7 +39,7 @@ async function postWithForm(newTaskText, typeOfCategory) {
 
   const res = await fetch(url, options);
   const data = await res.json();
-  console.log(data);
+
 }
 
 async function patchTask(task, assigned, status) {

@@ -69,6 +69,7 @@ function createForm(div, task) {
 
   inputForm.type = "text";
   inputForm.placeholder = "Name";
+  inputForm.required = true;
   elBtn.className = "buttonclass";
   elBtn.innerText = "Assign";
 
